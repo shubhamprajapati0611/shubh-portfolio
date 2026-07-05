@@ -1,0 +1,97 @@
+ body {
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #1e293b;
+  min-height: 80px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+section {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.skills {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills span,
+.project-card {
+  background: #1e293b;
+  border-radius: 10px;
+  width: 150px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 15px;
+}
+
+input,
+textarea,
+button {
+  border-radius: 8px;
+  border: none;
+  min-height: 45px;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+button {
+  background: #3b82f6;
+  color: white;
+  cursor: pointer;
+}
+.project-card {
+  background: #1e293b;
+  border-radius: 10px;
+  width: 500px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
