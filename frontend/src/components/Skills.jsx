@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 
 function Skills({ darkMode }) {
   const skills = [
-    { name: "React", level: 95 },
-    { name: "JavaScript", level: 90 },
-    { name: "Node.js", level: 85 },
-    { name: "MongoDB", level: 80 },
-    { name: "Python", level: 88 },
+    { name: "React", level: 70 },
+    { name: "JavaScript", level: 50 },
+    { name: "Node.js", level: 75 },
+    { name: "MongoDB", level: 55 },
+    { name: "Python", level: 60 },
   ];
 
   const cardStyle = darkMode
